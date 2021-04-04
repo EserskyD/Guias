@@ -74,7 +74,7 @@ public class Main {
 
                 case 3:
                     System.out.println("");
-                    obj_ItemdeVenta item = new obj_ItemdeVenta();
+                    obj_itemVentas item = new obj_itemVentas();
                     item.setId(0001);
                     item.setDescripción("Lampara");
                     item.setCantidad(20);
