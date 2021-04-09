@@ -1,9 +1,9 @@
 package com.company;
 
 public class obj_cuentaBancaria {
-    long id;
-    String nombre;
-    float balance;
+    private long id;
+    private String nombre;
+    private float balance;
 
     public long getId() {
         return id;
@@ -43,9 +43,9 @@ public class obj_cuentaBancaria {
 
     public void imprimirCuenta()
     {
-        System.out.println("Id: " + id);
-        System.out.println("Nombre del propietario: " + nombre);
-        System.out.println("Balance actual: " + balance);
+        System.out.println("Id: " + getId());
+        System.out.println("Nombre del propietario: " + getNombre());
+        System.out.println("Balance actual: " + getBalance());
     }
 
 }

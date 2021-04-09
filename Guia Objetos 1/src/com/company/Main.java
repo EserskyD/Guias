@@ -96,7 +96,7 @@ public class Main {
                     cuenta.credito(2500);
                     cuenta.debito(1500);
                     cuenta.debito(30000);
-                    if (cuenta.balance<0)
+                    if (cuenta.getBalance()<0)
                     {
                         System.out.println("Su cuenta esta en negativo");
                     } else

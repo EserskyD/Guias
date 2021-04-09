@@ -1,8 +1,8 @@
 package com.company;
 
 public class obj_Rectangulo {
-    double ancho = 1.0D;
-    double alto = 1.0D;
+    private double ancho = 1.0D;
+    private double alto = 1.0D;
 
     public obj_Rectangulo() {
     }
@@ -29,12 +29,10 @@ public class obj_Rectangulo {
     }
 
     public double rectanguloArea() {
-        double area = this.getAlto() * this.getAncho();
-        return area;
+        return this.getAlto() * this.getAncho();
     }
 
     public double rectanguloPerimetro() {
-        double perimetro = this.getAlto() * 2.0D + this.getAncho() * 2.0D;
-        return perimetro;
+        return this.getAlto() * 2.0D + this.getAncho() * 2.0D;
     }
 }
